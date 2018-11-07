@@ -1,6 +1,6 @@
 # Dynamic file completion
 
-> Native vim's file completion but relative to the current file
+> Vim's native file completion but relative to the current file
 
 ## Usage
 
