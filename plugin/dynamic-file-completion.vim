@@ -1,2 +1,3 @@
-autocmd InsertEnter * let save_cwd = getcwd() | set autochdir
-autocmd InsertLeave * set noautochdir | execute 'cd' fnameescape(save_cwd)
+let g:dynamic_file_completion_cwd = getcwd()
+autocmd InsertEnter * set autochdir
+autocmd InsertLeave * set noautochdir | execute 'cd' fnameescape(g:dynamic_file_completion_cwd)
