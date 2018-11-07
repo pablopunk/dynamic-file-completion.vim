@@ -1,6 +1,8 @@
 # Dynamic file completion
 
-Use the native file completion `<c-x><c-f>` within vim with current file's directory as the root:
+> Native vim's file completion but relative to the current file
+
+## Usage
 
 ```js
 // You're inside /components/main.js
